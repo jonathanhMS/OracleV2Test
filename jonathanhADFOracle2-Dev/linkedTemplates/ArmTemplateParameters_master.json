@@ -8,6 +8,9 @@
 		"Oracle1_password": {
 			"value": ""
 		},
+		"OracleV1_0_connectionString": {
+			"value": ""
+		},
 		"Oracle1_properties_typeProperties_server": {
 			"value": "oracle.com"
 		},

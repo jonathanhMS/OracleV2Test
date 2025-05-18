@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'Oracle1'"
 		},
+		"OracleV1_0_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'OracleV1_0'"
+		},
 		"Oracle1_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "oracle.com"
@@ -48,6 +52,9 @@
 					},
 					"Oracle1_password": {
 						"value": "[parameters('Oracle1_password')]"
+					},
+					"OracleV1_0_connectionString": {
+						"value": "[parameters('OracleV1_0_connectionString')]"
 					},
 					"Oracle1_properties_typeProperties_server": {
 						"value": "[parameters('Oracle1_properties_typeProperties_server')]"
