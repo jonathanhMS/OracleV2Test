@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"Oracle1_properties_typeProperties_server": {
-			"value": "oracle.com"
+			"value": "oracle.com.net"
 		},
 		"Oracle1_properties_typeProperties_username": {
 			"value": "Test"
